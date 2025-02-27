@@ -28,7 +28,7 @@ const AccredianReferralPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/referrals", {
+      const response = await fetch("https://accredian-backend-task-gih5.onrender.com/api/referrals", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
