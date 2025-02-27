@@ -125,7 +125,7 @@ const AccredianReferralPage = () => {
 
       {/* Hero Section */}
       <section className="bg-white p-8 flex justify-center relative overflow-hidden">
-        <div className="max-w-5xl w-full bg-gray-100 rounded-lg shadow-2xl p-8 flex items-center relative border">
+        <div className="max-w-5xl w-full bg-gray-100 rounded-lg shadow-2xl p-8 flex items-center relative ">
           {/* Money icons as decoration */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
             <div className="absolute top-8 left-8">
@@ -146,7 +146,7 @@ const AccredianReferralPage = () => {
           </div>
 
           {/* Left Content */}
-          <div className="w-1/2 z-10 border">
+          <div className="w-1/2 z-10">
             <h1 className="text-4xl font-bold mb-4">Let's Learn <br />& Earn</h1>
             <p className="text-lg mb-2">Get a chance to win</p>
             <p className="text-2xl font-bold mb-6 text-blue-600">up-to Rs. 15,000</p>
@@ -183,7 +183,7 @@ const AccredianReferralPage = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full h-full border flex justify-center items-center ">
+          <div className="w-full h-full flex justify-center items-center ">
             <div className="relative w-96 h-full flex justify-center items-center">
               <img
                 src="/herosection.png"
